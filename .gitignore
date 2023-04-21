@@ -3,3 +3,4 @@
 /model_weights.txt
 /model_config.json
 /pest
+/__pycache__
