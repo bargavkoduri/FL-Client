@@ -1,9 +1,9 @@
 let io = require("socket.io-client");
 const { PythonShell } = require("python-shell");
 const {WriteToFile,ReadFromFile} = require("./helper")
-
+const {SERVER_URL} = require("./constants")
 // connect to server
-let socket = io.connect("http://localhost:5000", {
+let socket = io.connect(SERVER_URL, {
   reconnection: true,
 });
 
