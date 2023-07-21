@@ -11,4 +11,24 @@ To install other dependencies type
 
 # Usage
 1) Change the SERVER_URL in constants.js file to the URL where server is hosted.
-2) 
+2) To start the client run ```node client.js```.
+
+<br/>
+The dataset should be present the following : <br/>
+ (i) The main folder is named "train," and it contains subfolders, each corresponding to a specific class label.
+<br/>
+ (ii) Each subfolder's name represents a distinct class in the dataset.
+
+(iii) Inside each class subfolder, there are image files (or any other data format depending on the dataset) that belong to the corresponding class.
+  ```
+train/
+|-- class_label_1/
+|   |-- image_1.jpg
+|   |-- image_2.jpg
+|   |-- ...
+|-- class_label_2/
+|   |-- image_3.jpg
+|   |-- image_4.jpg
+|   |-- ...
+|-- ...
+```
